@@ -1,0 +1,26 @@
+// Create a class called CustomList with these methods:
+// // insertFirst(data)
+// // insertLast(data)
+// // getFirst()
+// // getLast()
+
+
+// let CustomList = class {
+
+//   insertFirst(data)
+//   {
+
+//   };
+//   insertLast(data) 
+//   { 
+
+//   };
+//   getFirst() 
+//   { 
+
+//   };
+//   getLast ()
+//    { 
+
+//   };
+// }

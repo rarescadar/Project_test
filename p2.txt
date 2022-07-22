@@ -1,0 +1,24 @@
+// // 2. Write a function that takes two objects as arguments.
+// // Merge both objects and create another object that has fields from the arguments.
+// // Return the resulting object
+// // Ex: For an input {'a': 1, 'b': 2}, {'c': 3, 'd': 4} it should return another object with the properties 'a', 'b', 'c', 'd'.
+
+// var o1 = {
+//   a: 1,
+//   b: 2
+// };
+
+// var o2 = {
+//   c: 3,
+//   d: 4
+// };
+
+// function unirea(o1, o2) {
+//   let merged;
+//   merged = { ...o1, ...o2 };
+//   return merged;
+// }
+
+// let x;
+// x = unirea(o1, o2);
+// console.log(Object.getOwnPropertyNames(x));

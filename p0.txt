@@ -1,0 +1,23 @@
+// Choose a public api, make a call and get the result by using both then method and async/await as well.
+
+// const fetchData = async () => {
+//   const promise = await fetch("https://catfact.ninja/fact"); // fetch() returns a promise, so we need to wait for it
+
+//   try {
+//     const fact = await promise.json();
+//     console.log("getDataFromPromise success", fact);
+//   } catch (error) {
+//     console.log("error", error);
+//   }
+// };
+
+// fetchData();
+
+// fetch("https://catfact.ninja/fact")
+//   .then((response) => {
+//     const fact = response;
+//     console.log("fact", fact);
+//   })
+//   .catch((error) => {
+//     console.log("error", error);
+//   });

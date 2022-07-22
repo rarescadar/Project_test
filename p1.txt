@@ -1,0 +1,34 @@
+// 1. Given an array of objects that have a field called population, sort the objects by population size. Return the sorted array.
+
+// var cities = [
+//   {
+//     name: "Cluj",
+//     population: 303224,
+//     area: 179,
+//     language: "romana"
+//   },
+//   {
+//     name: "Bucuresti",
+//     population: 3003224,
+//     area: 1790,
+//     language: "romana"
+//   },
+//   {
+//     name: "Iasi",
+//     population: 250224,
+//     area: 179,
+//     language: "romana"
+//   },
+//   {
+//     name: "Craiova",
+//     population: 390000,
+//     area: 179,
+//     language: "romana"
+//   }
+// ];
+
+// cities.sort((a, b) => b.population - a.population);
+
+// cities.forEach((e) => {
+//   console.log(`${e.name} ${e.population}`);
+// });
